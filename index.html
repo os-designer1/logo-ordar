@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <title>logo-ordar </title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="https://os-designer1.github.io/OS-Designer/"> <img src="logo.png" alt="لوجو الموقع" class="logo"> </a><!-- هنا ضع رابط الصورة -->
+        <div class="nav" id="nav">
+           <a href="https://os-designer1.github.io/logo-Designer/">logo</a>
+           <a href="https://os-designer1.github.io/Social-media-Designer/">أعلانات </a>
+           <a href="https://os-designer1.github.io/card-Designer/">كارت شخصي</a>
+           <a href="https://os-designer1.github.io/panar-Designer/">بنر و يفط </a>
+           <a href="https://os-designer1.github.io/logo-Teshrt-Designer/">لوجو علي تيشرت</a>
+           <a href="https://os-designer1.github.io/pepar-Designer/">خدمات الورقيه </a>
+           <a href="tel:+201144898934">اتصل بنا</a>
+           <a href="https://os-designer1.github.io/support/">الدعم</a>
+           
+        </div>
+        
+        
+        <div class="menu-icon" onclick="toggleNav()">☰</div>
+        </div>
+
+        <div class="header2">
+            
+            <div class="header2-nav">
+                <img src="Cargo truck.png" class="hedar-2-p-img-1">
+                <p class="hedar-2-p">توصيل امام المنزل</p>
+                
+                |
+                <img src="shop.png" class="hedar-2-p-img-1">                
+
+                <p class="hedar-2-p">الاستلام من المتجر</p>
+
+            </div>
+          </div>
+
+
+        <div class="container">
+            <div class="image-section">
+                <img src="logo.png" alt="iPhone 16 Pro">
+            </div>
+    
+            <div class="info-section">
+               <div class="title">
+                    <h1>اطلب لوجو او شعار</h1>
+                    <p>يوجد اشتراك شهري وفر 20% او اكتر</p>
+                    <div class="descuond">
+                        <a href="" class="descuond-1">عرض الشهر الواحد</a>
+                    </div>
+                </div>
+    
+                <div class="options">
+                    <h2>نموج، أيهما أفضل لك؟</h2>
+                    <div class="option" onclick="selectOption('logo_text')">
+                        <span>لوجو كتابه فقط<br><small>هو لوجو  كتابه فقط بدون اي شعارات</small></span>
+                        <span class="price">$80 جنيه</span>
+                    </div>
+                    <div class="option" onclick="selectOption('logo_icon')">
+                        <span>لوجو شعار فقط<br><small>هو لوجو  شعار بدون كتابه</small></span>
+                        <span class="price">$80 جنيه</span>
+                    </div>
+                    <div class="option" onclick="selectOption('logo_combined')">
+                        <span>لوجو شعار و كتابه <br><small>هو لوجو  كتابه و شعارات</small></span>
+                        <span class="price">$100 جنيه</span>
+                    </div>
+                </div>
+                
+
+
+                <div class="order-container">
+                    <form id="form" class="order-form">
+                        <h2 class="form-title">طلب تصميم جديد</h2>
+                
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input class="input-field" type="text" name="name" placeholder=" " required>
+                                <span class="input-placeholder">الاسم الكامل</span>
+                            </label>
+                        </div>
+                
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input class="input-field" type="number" name="phone" placeholder=" " required>
+                                <span class="input-placeholder">رقم الهاتف</span>
+                            </label>
+                        </div>
+                
+                        <div class="form-group">
+                            <label class="form-label">
+                                <select class="input-field" name="designType" required>
+                                    <option value="" disabled selected>اخترالوجو</option>
+                                    <option value="لوجو كتابه">لوجو كتابه</option>
+                                    <option value="لوجو شعار">لوجو شعار</option>
+                                    <option value="لوجو شعار و كتابه">لوجو شعار و كتابه</option>
+
+                                </select>
+                                <span class="input-placeholder">نوع التصميم</span>
+                            </label>
+                        </div>
+                
+                        <input type="hidden" name="location" id="location">
+                
+                        <button class="submit-btn" id="button">إرسال الطلب</button>
+                        <p class="form-note">سيتم التواصل معك في أقرب وقت من خلال رقم هاتفك</p>
+                    </form>
+                </div>
+        
+
+    
+                <div class="help">
+                    <p>هل تحتاج إلى مساعدة في اختيار اللوجو؟ يمكنك مقارنة الاختلافات في تصميمات .</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        <div class="comparison-section">
+            <div class="comparison-header">
+                <h1>اختر اللوجو المناسب اليك</h1>
+            </div>
+    
+            <div class="products">
+                
+    
+                <div class="product">
+                    <img src="logo.png" alt="Creative Logo">
+                    <h2> شعار</h2>
+                    <p>اجعل هويتك البصرية تنبض بالحياة مع شعار يعكس رؤيتك.</p>
+                    <p class="price">جنيه $80</p>
+                    <div class="features">
+                        <p>• تصميم فريد يعبر عن شخصيتك</p>
+                        <p>• جودة عالية تناسب جميع الاستخدامات</p>
+                        <p>• ألوان جذابة تلفت الأنظار</p>
+                    </div>
+                    <hr>
+                </div>
+    
+                <div class="product">
+                    <img src="logo-text.jpeg" alt="Logo Text">
+                    <h2>شعار و كتابه</h2>
+                    <p>اجعل اسمك يتحدث عنك بأناقة وبساطة.</p>
+                    <p class="price">جنيه $100</p>
+                    <div class="features">
+                        <p>• تصميم احترافي يعكس هويتك</p>
+                        <p>• مناسب لجميع الاستخدامات</p>
+                        <p>• جودة عالية في التنفيذ</p>
+                    </div>
+                  <hr>
+                </div>
+    
+                <div class="product">
+                    <img src="text.png" alt="Logo Icon">
+                    <h2>كتابه </h2>
+                    <p>شعار يجذب الأنظار ويترك انطباعاً قوياً.</p>
+                    <p class="price">جنيه $80</p>
+                    <div class="features">
+                        <p>• تصميم فريد يعبر عن فكرتك</p>
+                        <p>• ألوان جذابة ومميزة</p>
+                        <p>• مناسب للشركات والمشاريع</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>  
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer-top">
+                <a href="https://os-designer1.github.io/OS-Designer/" class="footer-logo">
+                    <img src="logo.png" alt="OS Logo">
+                </a>
+                <span>اين تجدنا!</span>
+            </div>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h4>الخدمات</h4>
+                    <ul class="footer-list">
+                        <li><a href="https://os-designer1.github.io/logo-Designer/">شعار</a></li>
+                        <li><a href="https://os-designer1.github.io/panar-Designer/">يفط و بنرات</a></li>
+                        <li><a href="https://os-designer1.github.io/card-Designer/">كارت شخصي </a></li>
+                        <li><a href="https://os-designer1.github.io/Social-media-Designer/">Social media | اعلانات</a></li>
+                        <li><a href="https://os-designer1.github.io/logo-Teshrt-Designer/">طباعه علي تيشرت</a></li>
+                        <li><a href="https://os-designer1.github.io/pepar-Designer/">خدمات ورقيه</a></li>
+                        <li><a href="https://os-designer1.github.io/cv-Designer/">cv</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>استكشف</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">استكشف كيفيه الطباعه</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>التواصل</h4>
+                    <ul class="footer-list">
+                        <li><a href="tel:01144898934">اتصل بنا</a></li>
+                        <li><a href="https://wa.me/201144898934">تواصل واتساب</a></li>
+                        <li><a href="mailto:samasemo5647@gmail.com">تواصل عبر البريد الالكتروني</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <span>OS-Designer. © 2025. العلامة التجارية وجميع الحقوق محفوظة.</span>
+                |
+                <a href="https://maps.app.goo.gl/7onyXFjDYGyX34rU6"> موقعنا</a>
+                <span class="country">مصر | Egypt</span>
+            </div>
+        </footer>
+        
+
+
+
+         <script src="scrept.js" ></script>
+         <script>
+            // استيراد مكتبة EmailJS
+emailjs.init('_ubIcUNvQZ3-Gv0Cl');
+
+// ربط زر الإرسال والنموذج
+const btn = document.getElementById('button');
+const locationInput = document.getElementById('location');
+
+// جلب الموقع الجغرافي عند تحميل الصفحة
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(position => {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        locationInput.value = `https://www.google.com/maps?q=${lat},${lng}`;
+    }, error => {
+        console.error("لم يتمكن من تحديد الموقع:", error);
+        locationInput.value = "لم يتمكن من تحديد الموقع";
+    });
+} else {
+    locationInput.value = "المتصفح لا يدعم تحديد الموقع";
+}
+
+// عند إرسال النموذج
+document.getElementById('form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    btn.innerText = 'جاري الإرسال...';
+
+    const serviceID = 'default_service'; // معرف الخدمة
+    const templateID = 'template_8jz7qt1'; // معرف القالب
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            btn.innerText = 'إرسال الطلب';
+            alert('✅ تم إرسال الطلب بنجاح!');
+            document.getElementById('form').reset();
+        }, (err) => {
+            btn.innerText = 'إرسال الطلب';
+            alert('❌ حدث خطأ، يرجى المحاولة مرة أخرى.');
+            console.error("Error:", err);
+        });
+});
+
+         </script>
+ </body>
+ </html>
