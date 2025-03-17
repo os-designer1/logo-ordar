@@ -429,12 +429,12 @@ body{
 
 .product p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 20px;
     color: #555;
 }
 
 .product .price {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #000;
 }
@@ -444,7 +444,7 @@ body{
 }
 
 .features p {
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
