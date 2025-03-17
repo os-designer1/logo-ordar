@@ -134,7 +134,7 @@ body{
 
 
 .hedar-2-p{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 834px) {
@@ -157,7 +157,7 @@ body{
         font-size: 18px;
     }
     .hedar-2-p{
-        font-size:12px;
+        font-size: 14px;
     }
     .hedar-2-p-img-1{
         width: 20px;
@@ -330,14 +330,14 @@ body{
 
 .input-field:focus + .input-placeholder,
 .input-field:not(:placeholder-shown) + .input-placeholder {
-    top: -8px;
-    left: 12px;
-    font-size: 0.75rem;
+    top: 0px;
+    left: 0px;
+    font-size: 0rem;
     color: #1e90ff;
 }
 
 .submit-btn {
-    background: #25d366;
+    background: #00a2ff;
     color: #fff;
     font-size: 1rem;
     padding: 12px;
@@ -348,8 +348,8 @@ body{
 }
 
 .submit-btn:hover {
-    background: #1eb659;
-    box-shadow: 0 4px 12px rgba(30, 144, 255, 0.3);
+    background: #00498d;
+    box-shadow: 0 4px 12px #00aeffbd;
 }
 
 .form-note {
