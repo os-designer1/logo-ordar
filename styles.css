@@ -423,18 +423,17 @@ body{
 
 
 .product h2 {
-    font-size: 18px;
+    font-size: 30px;
     margin: 15px 0 10px;
 }
 
 .product p {
-    margin: 5px 0;
-    font-size: 20px;
+    font-size: 16px;
     color: #555;
 }
 
 .product .price {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #000;
 }
@@ -444,7 +443,7 @@ body{
 }
 
 .features p {
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -510,14 +509,76 @@ body{
 
 
 
+.loader {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    margin: 0 auto 0 ;
+  }
+  .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    animation: bounce 1.5s infinite;
+  }
+  .dot1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    animation: bounce 1.5s infinite;
+  }
+  .dot2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00aeff;
+    animation: bounce 1.5s infinite;
+  }
 
-
-
-
-
-
-
-
+  .dot3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+    animation: bounce 1.5s infinite;
+  }
+  .dot4 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ffc8;
+    animation: bounce 1.5s infinite;
+  }
+  .dot5 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0400ff;
+    animation: bounce 1.5s infinite;
+  }
+  .dot6 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4d4d4d;
+    animation: bounce 1.5s infinite;
+  }
+  .dot7 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    animation: bounce 1.5s infinite;
+  }
+  .dot8 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d0ff00;
+    animation: bounce 1.5s infinite;
+  }
 
 
 
