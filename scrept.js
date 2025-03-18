@@ -27,3 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+ // الحصول على جميع العناصر من الفئة "product"
+ const products = document.querySelectorAll('.product');
+
+ // إنشاء المراقب
+ const observer = new IntersectionObserver((entries) => {
+   entries.forEach(entry => {
+     if (entry.isIntersecting) {
+       entry.target.classList.add('active'); // تفعيل الأنيميشن
+     }
+   });
+ });
+
+ // مراقبة كل عنصر من المنتجات
+ products.forEach(product => observer.observe(product));
